@@ -1,5 +1,0 @@
-{
-    "port": "COM5",
-    "sketch": "app.ino",
-    "board": "arduino:avr:uno"
-}

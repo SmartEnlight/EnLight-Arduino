@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "memory": "cpp",
+        "istream": "cpp",
+        "initializer_list": "cpp",
+        "xutility": "cpp"
+    }
+}
