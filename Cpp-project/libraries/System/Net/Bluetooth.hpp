@@ -1,7 +1,7 @@
 #pragma once
 #include <SoftwareSerial.h>
 
-namespace TinyModule {
+namespace System::Net {
     class Bluetooth {
     private:
         SoftwareSerial _bluetoothSerial;

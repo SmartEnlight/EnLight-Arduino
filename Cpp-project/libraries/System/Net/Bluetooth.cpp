@@ -1,6 +1,6 @@
 #include "Bluetooth.hpp"
 
-namespace TinyModule {
+namespace System::Net {
     Bluetooth::Bluetooth(uint8_t rx, uint8_t tx) : _bluetoothSerial(rx, tx) {
 
     }
