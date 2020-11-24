@@ -9,7 +9,7 @@
 #define RedLed 5
 #define WhiteLed 6
 
-#define MULTIPLY 1.06f
+#define MULTIPLY 1.01f
 
 SoftwareSerial bluetooth(BT_RXD, BT_TXD);
 
@@ -53,7 +53,6 @@ void loop()
         }
         delay(1);
       }
-      delay(3000);
       isRedOn = true;
     }
     bluetooth.write("[");
@@ -64,6 +63,7 @@ void loop()
     }
     bluetooth.write(currsoundstr.c_str());
     bluetooth.write("]\r\n");
+    delay(3000);
  } else {
    if (isRedOn)
     {
